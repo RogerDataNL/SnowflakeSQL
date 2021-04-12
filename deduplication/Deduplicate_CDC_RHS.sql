@@ -1,4 +1,4 @@
---test RHS dataset to verify what duplicates will be deleted 
+--test RHS dataset to verify what duplicates in CDC loaded data will be deleted 
 with test_dataset as (
   select
   12345 as CUSTOMER_KEY,666 as JSON_SRC_KEY,'hash_A' as JSON_SRC_MD5,'2021-02-10 13:00:10.690 ' as META_SOURCE_DTS,'2021-02-10 13:00:51.706' as META_LOAD_DTS,'r' as META_CDC_DML_TYPE ,1 as META_UNIQUE_KEY
